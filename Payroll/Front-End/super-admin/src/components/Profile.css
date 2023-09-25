@@ -1,0 +1,44 @@
+#profile
+{
+    /* border: 2px solid black; */
+    width: 20rem;
+}
+
+.profile
+{
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img
+{
+    border: 2px solid black;
+    height: 10rem;
+    width: 10rem;
+    margin: 1.5rem;
+    border-radius: 5rem;
+}
+
+.profile h2
+{
+    margin: 1rem;
+}
+
+.notifications
+{
+    border: 2px solid black;
+    margin: 0.5rem;
+    border-radius: 1rem;
+}
+
+
+.notifications h3
+{
+    text-align: center;
+    margin: 0.5rem;
+}

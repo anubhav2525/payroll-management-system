@@ -1,0 +1,131 @@
+#main
+{
+    border: 2px solid rgb(41, 53, 212);
+    width: 97vw;
+    border-radius: 5rem;
+    margin: 1rem;
+    display: flex;
+}
+
+.salaryContainer
+{
+      overflow-x: hidden;
+      overflow-y: scroll;
+      width: 63rem;
+}
+
+.showsalarycontainer
+{
+      border: 2px solid black;
+      width: 35rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-radius: 1rem;
+      box-shadow: 2px 2px 5px black;
+}
+
+.showsalarycontainer div
+{
+      font-size: 1.5rem;
+      margin: 1rem;
+}
+
+.salaryContainer h4
+{
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem 0rem;
+}
+
+.selectoption
+{
+    margin: 1rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selectoption select
+{
+     margin: 1rem; 
+     font-size: 1.2rem;
+}
+
+.selectoption input
+{
+      text-align: right;
+      outline: none;
+      font-size: 1.2rem;
+      padding: 0.3rem;
+}
+
+.selectoption span
+{
+      border: 0.1px solid black;
+      padding: 0.46rem;
+}
+/* new */
+
+.salary-table {
+      width: 100%;
+      height: 70%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+  }
+  .salary-table td{
+      font-size: 20px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      padding: 15px;
+  }
+  .salary-table input{
+      height: 30px;
+      width: 250px;
+      font-size: large;
+      border-radius: 20px;
+      border-width: 0px;
+      text-align: center;
+  }
+  .salary-table select{
+      height: 30px;
+      width: 250px;
+      font-size: large;
+      border-radius: 20px;
+      border-width: 0px;
+      text-align: center;
+  }
+  .salary-table date{
+      height: 30px;
+      font-size: large;
+      border-radius: 20px;
+      border-width: 0px;
+      width: 250px;
+      text-align: center;
+  }
+  .registration-form-salary {
+      /* max-width: 400px; */
+      width: 58rem;
+      height: 40rem;
+      margin: 23px auto;
+      padding: 10px;
+      background-color: #f7f7f7;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-salry {
+      border-radius: 4rem;
+      margin-left: 1rem;
+      height: 30px;
+      width: 80px;
+      background-color: white;
+      border: 1px solid rgb(41, 53, 212);
+      /* color: white; */
+      /* box-shadow: 2px 2px 5px black; */
+  }
+  .search-salry:hover{
+      background-color: rgb(41, 53, 212);
+      border: 1px solid rgb(41, 53, 212);
+      color: white;
+  }

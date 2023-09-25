@@ -1,0 +1,64 @@
+.sear-logo-increment{
+      margin-top: 40px;
+      margin-left: 60px;
+      height: 60px;
+      width: 120px;
+}
+.heading-increment{
+      margin-top: 10px;
+      margin-left: 200px;
+      font-weight: bold;
+      font-size:25px;
+}
+.company-name-increment{
+      margin-top: 20px;
+      margin-left: 60px;
+      font-size: large;
+}
+.letter-title-increment{
+      margin-top: 20px;
+      margin-left: 60px;
+      font-size: large;
+}
+.salutation-increment{
+      margin-top: 20px;
+      margin-left: 60px;
+      margin-bottom: 10px;
+      font-size: large;
+}
+
+
+.upper-content-increment{
+      /* margin-top: 10px; */
+      margin-left: 60px;
+      font-size: large;
+}
+.lower-content-increment{
+      margin-top: 30px;
+      margin-left: 60px;
+      font-size: large;  
+}
+.lower-salutation-increment{
+      margin-top: 30px;
+      margin-left: 60px;
+      font-size: large;
+}
+.director-increment{
+      margin-top: 60px;
+      margin-left: 60px;
+      font-size: large;
+}
+.last-section-increment{
+      margin-top: 10px;
+      margin-left: 60px;
+      font-size: large;
+      font-weight: bold;
+}
+.footer-increment{
+      margin-top: 40px;
+      margin-left: 55px;
+      font-size: small;
+}
+.footer-section-increment{
+      text-align: center;
+}

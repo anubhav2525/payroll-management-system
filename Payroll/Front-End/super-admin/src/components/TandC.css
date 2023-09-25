@@ -1,0 +1,55 @@
+#main
+{
+    border: 2px solid rgb(41, 53, 212);
+    /* height: 94vh; */
+    width: 97vw;
+    border-radius: 5rem;
+    margin: 1rem;
+    display: flex;
+}
+
+#TandC
+{
+    width: 78rem;
+}
+
+#TandC h4
+{
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem 0rem;
+}
+
+.TandC 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.TandC textarea
+{
+    resize: none;
+    outline: none;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.TandC button
+{
+    margin: 0.8rem 8rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+
+.TandC button:hover
+{
+    background-color: rgb(41, 53, 212);
+    color: white;
+    border: 1px solid rgb(41, 53, 212);
+    box-shadow: 2px 2px 5px black;
+}

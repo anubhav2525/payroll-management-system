@@ -1,0 +1,89 @@
+#main {
+    border: 2px solid rgb(41, 53, 212);
+    height: 94vh;
+    width: 97vw;
+    border-radius: 5rem;
+    margin: 1rem;
+    display: flex;
+}
+
+#search {
+    border-right: 0px solid rgb(41, 53, 212);
+    width: 63rem;
+}
+
+#search h4 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem 0rem;
+}
+
+.searchoption {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin: 1rem 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.record-table {
+    margin: 0rem 1rem;
+  }
+  
+  .record-table th,
+  .record-table td {
+    padding: 10px;
+    text-align:center;
+    border: 1px solid #ddd;
+  }
+  
+  .record-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .record-table tbody tr:nth-child(even) {
+    background-color: #786a6a;
+  }
+  
+  .record-table tbody tr:hover {
+    background-color: #ebebeb;
+  }
+
+
+  /* Button Code */
+  .print-button {
+    /* padding: 10px 20px; */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    margin: 5px 0px;
+    border-radius: 4px;
+    font-size: 16px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    width: 50px;
+    height: 20px;
+  }
+  
+  .print-button::before {
+    content: '';
+    position: absolute;
+    top: -150%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300%;
+    height: 300%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  
+  .print-button:hover::before {
+    top: -50%;
+    opacity: 1;
+  }
+  

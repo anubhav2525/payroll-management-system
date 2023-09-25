@@ -1,0 +1,91 @@
+#main
+{
+    border: 2px solid rgb(41, 53, 212);
+    height: 94vh;
+    width: 97vw;
+    border-radius: 5rem;
+    margin: 1rem;
+    display: flex;
+}
+
+#employee
+{
+    border-right: 2px solid rgb(41, 53, 212);
+    width: 40rem;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+#employee h4
+{
+    text-align: center;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+
+.detail
+{
+    display: flex;
+    justify-content: center;
+}
+
+.detail1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.detail1 div
+{
+    margin: 0.8rem 0rem;
+}
+
+.detail2
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.detail2 input
+{
+    margin: 0.7rem 0.5rem;
+    outline: none;
+    font-size: 1rem;
+}
+
+.detail2 select
+{
+    margin: 0.7rem 0.5rem;
+    outline: none;
+    font-size: 1rem;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button button
+{
+    margin: 1rem 5rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    border : 1px solid black;
+}
+
+.button button:hover
+{
+    background-color: rgb(41, 53, 212);
+    border: 1px solid rgb(41, 53, 212);
+    color: white;
+    box-shadow: 2px 2px 5px black;
+}

@@ -1,0 +1,36 @@
+#buttons {
+    /* border: 2px solid black; */
+    width: 15rem;
+}
+
+#buttons h3 {
+    text-align: center;
+    margin: 1.7rem 0rem;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.buttons {
+    height: 34rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn {
+    padding: 1rem 1rem;
+    background-color: white;
+    border-radius: 3rem 5rem;
+    font-size: 1rem;
+    border: 2px solid black;
+    width: 210px;
+}
+
+.btn:hover {
+    background-color: rgb(41, 53, 212);
+    color: white;
+    border: 1px solid rgb(41, 53, 212);
+    box-shadow: 2px 2px 5px black;
+}

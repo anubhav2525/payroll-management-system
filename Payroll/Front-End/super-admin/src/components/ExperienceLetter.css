@@ -1,0 +1,77 @@
+.sear-logo-experience {
+      margin-top: 40px;
+      margin-left: 60px;
+      height: 60px;
+      width: 120px;
+}
+
+.heading-experience {
+      margin-top: 10px;
+      margin-left: 250px;
+      font-weight: bold;
+      font-size: xx-large;
+}
+
+.company-name-experience {
+      margin-top: 20px;
+      margin-left: 60px;
+      font-size: large;
+}
+
+.date-experience {
+      margin-top: 20px;
+      margin-left: 60px;
+      font-size: large;
+}
+
+.salutation-experience {
+      margin-top: 20px;
+      margin-left: 60px;
+      font-size: large;
+      font-weight: bold;
+}
+
+.upper-content-experience {
+      margin-top: 20px;
+      margin-left: 60px;
+      font-size: large;
+}
+
+.lower-content-experience {
+      margin-top: 20px;
+      margin-left: 60px;
+      font-size: large;
+}
+
+.lower-content-experience ul {
+      margin-left: 20px;
+}
+
+.lower-salutation-experience {
+      margin-top: 50px;
+      margin-left: 60px;
+      font-size: large;
+}
+
+.director-experience {
+      margin-top: 60px;
+      margin-left: 60px;
+      font-size: large;
+}
+
+.last-section-experience {
+      margin-top: 20px;
+      margin-left: 60px;
+      font-size: large;
+      font-weight: bold;
+}
+
+.footer-experience {
+      margin-top: 150px;
+      margin-left: 60px;
+      font-size: small;
+}
+
+.footer-section-experience {
+      text-align: center;
+}

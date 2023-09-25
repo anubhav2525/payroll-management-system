@@ -1,0 +1,144 @@
+#main {
+    border: 2px solid rgb(41, 53, 212);
+    /* height: 94vh; */
+    width: 97vw;
+    border-radius: 5rem;
+    margin: 1rem;
+    display: flex;
+}
+
+.addproject {
+    width: 78rem;
+}
+
+.addproject h4 {
+    text-align: center;
+    margin: 1rem 0rem;
+    font-size: 2rem;
+}
+
+.addscrollbar {
+    height: 37.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+    flex-direction: column;
+}
+
+.pd {
+    display: flex;
+    flex-direction: column;
+    height: 28rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pd div {
+    display: flex;
+    align-items: center;
+}
+
+.pd div span {
+    margin: 0rem 1rem;
+    font-size: 1.2rem;
+}
+
+.pd div input {
+    font-size: 1.2rem;
+    margin: 0rem 1rem;
+    padding: 0.1rem 0.2rem;
+    outline: none;
+}
+
+.pd div textarea {
+    outline: none;
+    font-size: 1rem;
+    padding: 0.1rem 0.2rem;
+    resize: none;
+}
+
+.addbutton {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.addbutton button {
+    padding: 0.5rem 1rem;
+    /* margin: 0rem 10rem; */
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.addbutton button:hover {
+    background-color: rgb(41, 53, 212);
+    border: 1px solid rgb(41, 53, 212);
+    color: white;
+    /* box-shadow: 2px 2px 5px black; */
+}
+
+
+.project-table {
+    width: 100%;
+    height: 70%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.project-table td{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+}
+.project-table input{
+    height: 30px;
+    width: 250px;
+    font-size: large;
+    border-radius: 20px;
+    border-width: 0px;
+    text-align: center;
+}
+.project-table select{
+    height: 30px;
+    width: 250px;
+    font-size: large;
+    border-radius: 20px;
+    border-width: 0px;
+    text-align: center;
+}
+.project-table date{
+    height: 30px;
+    font-size: large;
+    border-radius: 20px;
+    border-width: 0px;
+    width: 250px;
+    text-align: center;
+}
+.registration-form-project {
+    /* max-width: 400px; */
+    width: 45rem;
+    height: 33rem;
+    margin: 23px auto;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-project {
+    border-radius: 4rem;
+    margin-left: 1rem;
+    height: 30px;
+    width: 80px;
+    background-color: white;
+    border: 1px solid rgb(41, 53, 212);
+    /* color: white; */
+    /* box-shadow: 2px 2px 5px black; */
+}
+.search-project:hover{
+    background-color: rgb(41, 53, 212);
+    border: 1px solid rgb(41, 53, 212);
+    color: white;
+}

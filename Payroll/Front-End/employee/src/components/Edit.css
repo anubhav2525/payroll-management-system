@@ -1,0 +1,74 @@
+#main
+{
+    border: 2px solid rgb(41, 53, 212);
+    width: 97vw;
+    border-radius: 5rem;
+    margin: 1rem;
+    display: flex;
+}
+
+.edit
+{
+    /* border: 2px solid black; */
+    width: 78rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.basicdetail-container
+{
+    border: 2px solid black;
+    width: 35rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 5px black;
+}
+
+.basicdetail-container h4
+{
+    text-align: center;
+    margin: 1rem;
+    font-size: 2rem;
+} 
+
+.basicinput
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.basicinput div
+{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.basicinput input
+{
+    font-size: 1.5rem;
+    outline: none;
+    padding: 0.2rem;
+}
+
+.Basicbutton
+{
+    background-color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+
+.Basicbutton:hover
+{
+    background-color: rgb(41, 53, 212);
+    color: white;
+    border: 1px solid rgb(41, 53, 212);
+    box-shadow: 2px 2px 5px black;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}

@@ -1,0 +1,91 @@
+#main
+{
+    border: 2px solid rgb(41, 53, 212);
+    /* height: 94vh; */
+    width: 97vw;
+    border-radius: 5rem;
+    margin: 1rem;
+    display: flex;
+}
+
+
+#project
+{ 
+    height: 40rem;
+    width: 78rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#project h4
+{
+    text-align: center;
+    margin: 1rem 0rem;
+    font-size: 2rem;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.add
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add button
+{
+    margin: 0.5rem 0rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.add button:hover
+{
+    background-color: rgb(41, 53, 212);
+    border: 1px solid rgb(41, 53, 212);
+    color: white;
+    box-shadow: 2px 2px 5px black;
+}
+
+.project-details
+{
+    border: 1px solid black;
+    margin: 1rem 1rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 5px black;
+}
+
+.project-details span
+{
+    margin: 0rem 2.4rem;
+    font-size: 1.2rem;
+}
+.record-table-emp {
+  width: 97%;
+    margin: 0rem 1rem;
+  }
+  
+  .record-table-emp th,
+  .record-table-emp td {
+    padding: 10px;
+    text-align:center;
+    border: 1px solid #ddd;
+  }
+  
+  .record-table-emp th {
+    background-color: #f2f2f2;
+  }
+  
+  .record-table-emp tbody tr:nth-child(even) {
+    background-color: #786a6a;
+  }
+  
+  .record-table-emp tbody tr:hover {
+    background-color: #ebebeb;
+  }

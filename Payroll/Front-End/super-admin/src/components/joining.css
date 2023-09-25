@@ -1,0 +1,61 @@
+.sear-logo-joining {
+      margin-top: 40px;
+      margin-left: 60px;
+      height: 60px;
+      width: 120px;
+}
+.heading-joining{
+      margin-top: 10px;
+      margin-left: 250px;
+      font-weight: bold;
+      font-size: xx-large;
+}
+.company-name-joining{
+      margin-top: 20px;
+      margin-left: 60px;
+      font-size: large;
+}
+.letter-title-joining{
+      margin-top: 20px;
+      margin-left: 60px;
+      font-size: large;
+}
+.salutation-joining{
+      margin-top: 20px;
+      margin-left: 60px;
+      font-size: large;
+}
+.upper-content-joining{
+      /* margin-top: 10px; */
+      margin-left: 60px;
+      font-size: large;
+}
+.lower-content-joining{
+      margin-top: 30px;
+      margin-left: 60px;
+      font-size: large;  
+}
+.lower-salutation-joining{
+      margin-top: 30px;
+      margin-left: 60px;
+      font-size: large;
+}
+.director-joining{
+      margin-top: 60px;
+      margin-left: 60px;
+      font-size: large;
+}
+.last-section-joining{
+      margin-top: 20px;
+      margin-left: 60px;
+      font-size: large;
+      font-weight: bold;
+}
+.footer-joining{
+      margin-top: 100px;
+      margin-left: 60px;
+      font-size: small;
+}
+.footer-section-joining{
+      text-align: center;
+}

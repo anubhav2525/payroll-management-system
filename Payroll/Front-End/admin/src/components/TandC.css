@@ -1,0 +1,33 @@
+#main
+{
+    border: 2px solid rgb(41, 53, 212);
+    width: 97vw;
+    border-radius: 5rem;
+    margin: 1rem;
+    display: flex;
+}
+
+#TandC
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 78rem;
+}
+
+#TandC h4
+{
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem 0rem;
+}
+
+.show
+{
+    padding: 1rem;
+    border: 2px solid black;
+    width: 64rem;
+    overflow-x: hidden;
+    height: 33rem;
+    overflow-y: scroll;
+}

@@ -1,0 +1,110 @@
+#mainlogin
+{
+    /* border: 2px solid black; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.main1
+{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    width: 55vw;
+    height: 100vh;
+    background-color: rgb(41, 53, 212);
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container
+{
+    border: 0.1px solid white;
+    width: 34rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 6px rgb(37, 37, 37);
+}
+
+.login-container h1
+{
+    color: white;
+    margin: 1rem;
+    font-size: 2.5rem;
+}
+
+.forget
+{
+    color: white;
+}
+
+.forget:hover
+{
+    color: rgb(145, 151, 235);
+}
+
+.button
+{
+    margin: 1rem 1rem;
+    width: 7rem;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+.button:hover
+{
+    background-color: rgb(41, 53, 212);
+    /* border: 0.1px solid white; */
+    box-shadow: 2px 2px 3px white;
+    color: white;
+}
+
+.input
+{
+    outline: none;
+    text-align: right;
+    width: 25rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0rem;
+    padding: 0rem 0.5rem;
+    font-size: 1.4rem;
+}
+
+input[type="text"]::placeholder {
+    text-align: center;
+    /* color: white; */
+}
+
+.main2
+{
+    /* border: 2px solid black; */
+    width: 45vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main2 h1
+{
+    margin: 2rem 0rem;
+    font-size: 2.5rem;
+    color: rgb(27, 40, 214);
+}
+
+.main2 img
+{
+    margin-left: auto;
+    margin-right: auto;
+    height: 32rem;
+    width: 36rem;
+}

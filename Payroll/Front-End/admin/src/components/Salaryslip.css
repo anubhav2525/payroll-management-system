@@ -1,0 +1,140 @@
+.center
+{
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+}
+.logos{
+      border:1px solid black;
+      border-width: 3px;
+      width:min-content;
+      font-size: 40px;
+      margin-left:70px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* table{
+      width: 100;
+} */
+th{
+      border-top: 0ch;
+      border-left: 0ch;
+      border-right: 0ch;
+      border-width: 2px;
+      width: 200px;
+}
+
+td{
+      border: 0ch;
+}
+.data{
+      border: 0ch;
+      text-align:left;
+      font-size: small;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.gross{
+      border: 2px solid black;
+      border-left:0ch;
+      border-right: 0ch;
+      border-bottom: 0ch;
+      text-align:left;
+      font-weight: bold;
+      font-size: large;
+      background-color: rgba(128, 128, 128, 0.165);
+}
+.border-remove-bottom{
+      border-bottom: 0ch;
+      height: 100px;
+      /* text-align: center; */
+}
+.gross-record{
+      border: 2px solid black;
+      border-left:0ch;
+      border-right: 0ch;
+      border-bottom: 0ch;
+      text-align:left;
+      font-family:monospace;
+      font-size: large;
+      font-weight: bold;
+}
+.gross-record-left{
+      border: 2px solid black;
+      border-left:0ch;
+      /* border-right: 0ch; */
+      border-bottom: 0ch;
+      text-align:left;
+      font-size: large;
+      font-family:monospace;
+      font-weight: bold;
+}
+.company-details{
+      /* text-align:left; */
+      font-size: large;
+      font-weight: bold;
+      font: bolder;
+      font-family: Arial, Helvetica, sans-serif;
+}
+.company-address{
+      text-align: center;
+      font: caption;
+}
+/* .heading-item{
+border: 2px solid black;
+border-right: 2px;
+} */
+.salary-slip{
+      font-size: large;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: bold;
+}
+.record{
+      width: 100px;
+      text-align: left;
+}
+.record-border{
+      border: 2px solid black;
+      border-left:0ch;
+      border-top: 0ch;
+      border-bottom: 0ch;
+      font-family:monospace;
+}
+.record-no-border{
+      border: 2px solid black;
+      border-left:0ch;
+      border-top: 0ch;
+      border-right: 0ch;
+      border-bottom: 0ch;
+      font-family:monospace;
+}
+.borders{
+      border: 2px solid black;
+      border-left:0ch;
+      border-right: 0ch;
+}
+.headingss{
+      background-color: rgba(128, 128, 128, 0.165);
+      border: 2px solid black;
+      border-left:0ch;
+      border-top: 0ch;
+}
+.headings{
+      background-color: rgba(128, 128, 128, 0.165);
+      border: 2px solid black;
+      border-right:0ch;
+      border-left:0ch;
+      border-top: 0ch;
+}
+.headings-item-right{
+      background-color: rgba(128, 128, 128, 0.165);
+      border: 2px solid black;
+      border-top: 0ch;
+      border-left: 0ch;
+}
+.headings-item-left{
+      background-color: rgba(128, 128, 128, 0.165);
+      border: 2px solid black;
+      border-top: 0ch;
+      border-right: 0ch;
+      border-left: 0ch;
+}
